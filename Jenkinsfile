@@ -8,7 +8,7 @@ node {
        }
 	
 	
-	 stage('Sonar') {
+	 stage('building') {
                    //add stage sonar
                    bat 'mvn clean package'
                 }
@@ -18,12 +18,6 @@ node {
                    bat 'mvn sonar:sonar'
                 }
 
-       stage('BuildArtifact'){
-
-         // sh 'mvn install'
-	       
-	       bat 'mvn deploy'
-       }
 	  /*stage('Tomcat')
 	{
 		sshagent(['549f4f30-c230-4392-bb0a-23cddce7d60b']) {
