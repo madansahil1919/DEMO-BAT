@@ -7,12 +7,12 @@
   <artifactId>maven-web-project</artifactId>
   <packaging>war</packaging>
   <version>1.1</version>
-  <name>Maven Web Project 18th August</name>
+  <name>Maven Web Project </name>
   <description>Maven Web Project for Java Project</description>
 
  <organization>
-     <name>Mithun Technologies</name>
-     <url>http://mithuntechnologies.com/</url>
+     <name>Chitti</name>
+     <url>http://google.com/</url>
  </organization>
 
   <properties>
@@ -82,12 +82,12 @@
 	<distributionManagement>
 	    <repository>
 	      <id>nexus</id>
-	      <name>Mithun Technologies Releases Nexus Repository</name>
+	      <name>Releases Nexus Repository</name>
 	      <url>http://ec2-13-232-188-117.ap-south-1.compute.amazonaws.com:8081/repository/Ichitti-releases/</url>
 	    </repository>
 	    <snapshotRepository>
 	      <id>nexus</id>
-	      <name>Mithun Technologies Snapshot Nexus Repository </name>
+	      <name>Snapshot Nexus Repository </name>
 	      <url>http://ec2-13-232-188-117.ap-south-1.compute.amazonaws.com:8081/repository/Ichitti-snapshot/</url>
 	    </snapshotRepository>
 	</distributionManagement>
