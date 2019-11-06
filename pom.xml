@@ -92,10 +92,6 @@
 	    </snapshotRepository>
 	</distributionManagement>
 	
-
-
-
-
 -->	
   <build>
     <plugins>
